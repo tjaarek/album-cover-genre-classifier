@@ -1,0 +1,16 @@
+[project]
+name = "album-cover-genre-classifier"
+version = "0.1.0"
+description = 'This is a CNN project from Tjarek Hall for the module "Deep Learning" by Jan Gerken'
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "altair==5.5.0",
+    "matplotlib==3.10.5",
+    "numpy==2.3.2",
+    "pandas==2.3.1",
+    "pillow>=12.2.0",
+    "torch==2.8.0",
+    "torchmetrics==1.8.1",
+    "torchvision==0.23.0",
+]

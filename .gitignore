@@ -1,0 +1,8 @@
+# Enviroments
+.env
+
+# IDE specific files
+.vscode/
+
+# Data
+data/
