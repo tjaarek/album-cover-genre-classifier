@@ -6,3 +6,11 @@
 
 # Data
 data/
+
+# macOS
+.DS_Store
+
+#Python
+__pycache__/
+*.pyc
+.venv/
