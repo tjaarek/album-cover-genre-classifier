@@ -8,3 +8,7 @@ run_id,timestamp,note,img_size,batch_size,optimizer,lr,momentum,dropout,epochs,f
 7,2026-06-02 13:12,"learning rate wieder von 0.001 auf 0.01, Adam-Optimizer zurück zu SGD, zusätzlich Weight Decay 1e-4 als Regularisierung hinzugefügt",128,32,SGD,0.01,0.9,0.5,50,1.2846,2.5935,0.5607,0.2283,0.2598,47,0.0001
 8,2026-06-02 13:20,"IMG_SIZE von 128 auf 64 reduziert, um zu sehen, ob das Overfitting verringert wird",64,32,SGD,0.01,0.9,0.5,50,0.8575,2.8378,0.7096,0.2546,0.2598,31,0.0001
 9,2026-06-02 13:27,weight_decay=1e-4 nochmal wieder raus nehmen,64,32,SGD,0.01,0.9,0.5,50,0.6984,3.1054,0.77,0.2073,0.2467,38,0.0
+10,2026-06-04 14:52,"IMG_SIZE to 128, NUM_EPOCHS to 80 & ich habe Augmentation hinzugefügt - Erstmal nur RandomResizedCrop (leichter Zoom/Ausschnitt) + mildes ColorJitter",128,32,SGD,0.01,0.9,0.5,80,0.8864,2.9695,0.695,0.2651,0.2808,59,0.0
+11,2026-06-04 15:32,Augmentation um HorizontalFlip und Rotation erweitert,128,32,SGD,0.01,0.9,0.5,80,1.5697,2.427,0.4717,0.2572,0.2598,74,0.0
+12,2026-06-04 16:53,Best run,128,32,SGD,0.01,0.9,0.5,80,0.9432,2.9382,0.6777,0.2362,0.2756,32,0.0
+13,2026-06-04 21:34,Best weighted run,128,32,SGD,0.01,0.9,0.5,80,0.8777,2.9628,0.7057,0.1969,0.2651,77,0.0
