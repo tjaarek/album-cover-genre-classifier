@@ -12,3 +12,4 @@ run_id,timestamp,note,img_size,batch_size,optimizer,lr,momentum,dropout,epochs,f
 11,2026-06-04 15:32,Augmentation um HorizontalFlip und Rotation erweitert,128,32,SGD,0.01,0.9,0.5,80,1.5697,2.427,0.4717,0.2572,0.2598,74,0.0
 12,2026-06-04 16:53,Best run,128,32,SGD,0.01,0.9,0.5,80,0.9432,2.9382,0.6777,0.2362,0.2756,32,0.0
 13,2026-06-04 21:34,Best weighted run,128,32,SGD,0.01,0.9,0.5,80,0.8777,2.9628,0.7057,0.1969,0.2651,77,0.0
+14,2026-06-08 17:05,Dropout von 0.5 auf 0.2 reduziert,128,32,SGD,0.01,0.9,0.2,80,0.4863,4.0213,0.8483,0.1916,0.252,54,0.0
